@@ -13,6 +13,19 @@
         "type": "resources",
         "uuid": "265ef795-7733-4548-906b-9a6bbdef53de",
         "version": [1, 0, 0]
+      },
+      {
+        "type": "script",
+        "uuid": "c82cdb32-4f35-4675-8043-a0e45a52ab64",
+        "version": [1, 0, 0],
+        "entry": "scripts/main.js"
+
+      }
+    ],
+    "dependencies": [
+      {
+        "modulename": "@minecraft/server",
+        "version": "1.7.0"
       }
     ]
    }
